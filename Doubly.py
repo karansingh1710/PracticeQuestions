@@ -88,7 +88,7 @@ class DoublyLinkedList:
         
     def print(self):
         temp=self.head
-        while(temp is not None):
+        while(temp):
             print(temp.data,end="->")
             temp=temp.next
         print()
